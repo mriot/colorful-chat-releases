@@ -13,14 +13,23 @@ A [Nexus](https://github.com/RaidcoreGG/NEXUS) addon for [Guild Wars 2](https://
 
 ## Features
 
-- Customize colors for each chat channel individually and set different colors for the actual message text.  
-- Option to enable high contrast text to improve readability.
-- Option to keep the chat history visible even when the chat background is hidden. (Goes well with high contrast text.)
-- Colors are applied immediately so you can see how they look in real-time.
+### Chat Customization
 
-#### Combat log
+- Customize colors for each chat channel and message individually
+- Custom colors for all six guild chats
+- Dim chats from inactive guilds
+- Show the active guild chat in the `Guild Active` color instead of its custom color
+- Separate colors for `CombatInHeal` and `CombatOutHeal` messages
 
-- Set individual colors for `CombatInHeal` and `CombatOutHeal` messages.
+### Accessibility
+
+- High-contrast text
+- XL text size that is ~20% larger than the original chat’s maximum text size
+
+### Misc
+
+- Increased chat history limit from 200 to 1000 messages (**EXPERIMENTAL**)
+- Keep chat history visible with hidden chat background
 
 ## Installation
 
@@ -42,8 +51,7 @@ Using third-party addons in Guild Wars 2 is always at your own discretion.
 
 ## Source Code
 
-The source code is not public. This repository is only used for releases.  
-Memory reading and related logic are kept private to stay in line with ArenaNet’s general guidelines for addon development.
+The source code is kept private to comply with ArenaNet’s guidelines for addons that interact with the game’s memory.
 
 ## Dependencies
 
@@ -51,7 +59,7 @@ Memory reading and related logic are kept private to stay in line with ArenaNet�
 - [ImGui](https://github.com/ocornut/imgui)
 - [inifile-cpp](https://github.com/Rookfighter/inifile-cpp)
 
-Special thanks to Delta, Vonsh and Gera for their support
+Special thanks to Delta, Vonsh, and Gera for their support, along with several others from the [Raidcore discord](https://discord.gg/raidcore) who contributed with testing and feedback.
 
 ---
 
